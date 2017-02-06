@@ -1,0 +1,335 @@
+--------[ 鲁大师 ]--------------------------------------------------------------------------------
+
+  软件:             鲁大师 5.15.16.1160
+  时间:             2016-12-25 18:50:03
+  网站:             http://www.ludashi.com
+
+--------[ 概览 ]----------------------------------------------------------------------------------
+
+  电脑型号            东芝 Satellite C600 笔记本电脑
+  操作系统            Windows 7 旗舰版 64位 ( DirectX 11 )
+
+  处理器              英特尔 Pentium(奔腾) P6200 @ 2.13GHz 双核
+  主板                东芝 Portable PC ( 英特尔 HM55 芯片组 )
+  显卡                AMD Mobility Radeon HD 5470 ( 512 MB / 东芝 )
+  内存                4 GB ( 三星 DDR3 1333MHz )
+  主硬盘              三星 SSD 840 EVO 120GB ( 120 GB / 固态硬盘 )
+  显示器              LG LGD01E6 ( 14 英寸  )
+  声卡                Conexant SmartAudio HD @ 英特尔 5 Series/3400 Series Chipset  高保真音频
+  网卡                鈺硕 AR8152 Fast Ethernet Controller / 东芝
+
+--------[ 主板 ]----------------------------------------------------------------------------------
+
+  主板型号            东芝 Portable PC
+  芯片组              英特尔 HM55 芯片组
+  主板版本            Base Board Version
+  BIOS                INSYDE 1.70  /  制造日期: 2010年11月16日
+  BIOS的大小          1536 KB
+
+
+--------[ 处理器 ]--------------------------------------------------------------------------------
+
+  处理器              英特尔 Pentium(奔腾) P6200 @ 2.13GHz 双核
+  速度                2.14 GHz (133 MHz x 16.0)
+  处理器数量          核心数: 2 / 线程数: 2
+  核心代号            Arrandale
+  生产工艺            32 纳米
+  插槽/插座           Socket uPGA-989
+  一级数据缓存        32 KB, 8-Way, 64 byte lines
+  一级代码缓存        32 KB, 4-Way, 64 byte lines
+  二级缓存            256 KB, 8-Way, 64 byte lines
+  三级缓存            3 MB, 12-Way, 64 byte lines
+  特征                MMX, SSE, SSE2, SSE3, SSSE3, EM64T, EIST
+
+--------[ 硬盘 ]----------------------------------------------------------------------------------
+
+  产品                三星  SSD 840 EVO 120GB (固态硬盘)
+  大小                120 GB
+  缓存                256 MB
+  硬盘已使用          共 2784 次，累计 6115 小时
+  固件                EXT0AB0Q
+  接口                SATA III
+  数据传输率          600.00 MB/秒
+  特征                S.M.A.R.T,  48-bit LBA,  NCQ
+
+  产品                西数 WDC WD10JPVX-22JC3T0
+  大小                1 TB
+  转速                5400 转/分
+  缓存                8 MB
+  硬盘已使用          共 1462 次，累计 2951 小时
+  固件                01.01A01
+  接口                SATA III
+  数据传输率          600.00 MB/秒
+  特征                S.M.A.R.T,  APM,  48-bit LBA,  NCQ
+
+--------[ 内存 ]----------------------------------------------------------------------------------
+
+  DIMM0               三星 DDR3 1333MHz 2GB
+  制造日期            2010 年 11月
+  型号                CE M471B5773CHS-CH9
+  序列号              6806ABCB
+  厂商                SAMSUNG
+  模块位宽:           64 Bits
+  模块电压:           SSTL 1.5V
+
+  DIMM1               三星 DDR3 1333MHz 2GB
+  制造日期            2012 年 04月
+  型号                CE M471B5773CHS-CH9
+  序列号              0087C80E
+  厂商                SAMSUNG
+  模块位宽:           64 Bits
+  模块电压:           SSTL 1.5V
+
+--------[ 显卡 ]----------------------------------------------------------------------------------
+
+  主显卡              AMD Mobility Radeon HD 5470
+  显存                512 MB
+  频率                核心: 750MHz / 显存: 800MHz
+  制造商              东芝
+  制造商              AMD
+  BIOS版本            BR038853.001
+  BIOS日期            2010年10月15日
+  驱动版本            15.200.1062.0
+  驱动日期            7-15-2015
+
+--------[ 显示器 ]--------------------------------------------------------------------------------
+
+  产品                LG LGD01E6
+  厂商                LG
+  固件日期            2008 年
+  屏幕尺寸            14 英寸 (31 厘米 x 17 厘米)
+  显示比例            宽屏 16 : 9
+  分辨率              1366 x 768 32 位真彩色
+  Gamma               2.20
+  最大分辨率          1366 x 768
+
+--------[ 其他设备 ]------------------------------------------------------------------------------
+
+
+  网卡                鈺硕 AR8152 Fast Ethernet Controller
+  制造商              东芝
+
+  无线网卡            Atheros AR9485 Wireless Network Adapter
+  制造商              建兴
+
+  声卡                Conexant SmartAudio HD @ 英特尔 5 Series/3400 Series Chipset  高保真音频
+
+  键盘                HID 标准键盘
+  键盘                PS/2 标准键盘
+  鼠标                Synaptics PS/2 Port 触摸板
+  鼠标                HID-compliant 鼠标
+
+  摄像头              东芝 Webcam
+
+--------[ PCI设备 ]-------------------------------------------------------------------------------
+
+  设备                Processor DRAM Controller
+  设备ID              0044
+  制造商              Intel
+  制造商ID            8086
+  类别                Bridge / PCI to HOST
+  子系统制造商        Toshiba
+  子系统ID            FF1E1179
+
+  设备                Processor PCI Express Root Port
+  设备ID              0045
+  制造商              Intel
+  制造商ID            8086
+  类别                Bridge / PCI to PCI
+  子系统ID            00000000
+
+  设备                5 Series/3400 Series Chipset HECI Controller
+  设备ID              3B64
+  制造商              Intel
+  制造商ID            8086
+  类别                Simple Communication / Other
+  子系统制造商        Toshiba
+  子系统ID            FF1E1179
+
+  设备                5 Series/3400 Series Chipset USB Enhanced Host Controller
+  设备ID              3B3C
+  制造商              Intel
+  制造商ID            8086
+  类别                Serial / USB 2.0 (EHCI)
+  子系统制造商        Toshiba
+  子系统ID            FF1E1179
+
+  设备                5 Series/3400 Series Chipset HD Audio
+  设备ID              3B56
+  制造商              Intel
+  制造商ID            8086
+  类别                Multimedia / Hi-definition Audio
+  子系统制造商        Toshiba
+  子系统ID            FF1E1179
+
+  设备                5 Series/3400 Series Chipset PCI Express Root Port 1
+  设备ID              3B42
+  制造商              Intel
+  制造商ID            8086
+  类别                Bridge / PCI to PCI
+  子系统ID            00000000
+
+  设备                5 Series/3400 Series Chipset PCI Express Root Port 2
+  设备ID              3B44
+  制造商              Intel
+  制造商ID            8086
+  类别                Bridge / PCI to PCI
+  子系统ID            00000000
+
+  设备                5 Series/3400 Series Chipset PCI Express Root Port 5
+  设备ID              3B4A
+  制造商              Intel
+  制造商ID            8086
+  类别                Bridge / PCI to PCI
+  子系统ID            00000000
+
+  设备                5 Series/3400 Series Chipset USB Enhanced Host Controller
+  设备ID              3B34
+  制造商              Intel
+  制造商ID            8086
+  类别                Serial / USB 2.0 (EHCI)
+  子系统制造商        Toshiba
+  子系统ID            FF1E1179
+
+  设备                82801 PCI Bridge
+  设备ID              2448
+  制造商              Intel
+  制造商ID            8086
+  类别                Bridge / PCI to PCI (Subtractive Decode)
+  子系统ID            00000000
+
+  设备                HM55 Express Chipset LPC Interface Controller
+  设备ID              3B09
+  制造商              Intel
+  制造商ID            8086
+  类别                Bridge / PCI to ISA
+  子系统制造商        Toshiba
+  子系统ID            FF1E1179
+
+  设备                5 Series 4 Port SATA AHCI Controller
+  设备ID              3B29
+  制造商              Intel
+  制造商ID            8086
+  类别                Storage / Serial ATA (AHCI 1.0)
+  子系统制造商        Toshiba
+  子系统ID            FF1E1179
+
+  设备                5 Series/3400 Series Chipset SMBus Controller
+  设备ID              3B30
+  制造商              Intel
+  制造商ID            8086
+  类别                Serial / SMBus Controller
+  子系统制造商        Toshiba
+  子系统ID            FF1E1179
+
+  设备                5 Series/3400 Series Chipset Thermal Subsystem
+  设备ID              3B32
+  制造商              Intel
+  制造商ID            8086
+  类别                Data Aquisition & Signal Processing / Other
+  子系统制造商        Toshiba
+  子系统ID            FF1E1179
+
+  设备                Mobility Radeon HD 5470 (PARK XT)
+  设备ID              68E0
+  制造商              AMD
+  制造商ID            1002
+  类别                Display / VGA
+  子系统制造商        Toshiba
+  子系统ID            FDFA1179
+
+  设备                AR8152 Fast Ethernet Controller
+  设备ID              2062
+  制造商              Attansic
+  制造商ID            1969
+  类别                Network / Ethernet
+  子系统制造商        Toshiba
+  子系统ID            FF1E1179
+
+  设备                AR9485 Wireless Network Adapter
+  设备ID              0032
+  制造商              Atheros
+  制造商ID            168C
+  类别                Network / Other
+  子系统制造商        Lite-On
+  子系统ID            662711AD
+
+  设备                QuickPath Architecture Generic Non-core Registers
+  设备ID              2C62
+  制造商              Intel
+  制造商ID            8086
+  类别                Bridge / PCI to HOST
+  子系统制造商        Toshiba
+  子系统ID            FF1E1179
+
+  设备                QuickPath Architecture System Address Decoder
+  设备ID              2D01
+  制造商              Intel
+  制造商ID            8086
+  类别                Bridge / PCI to HOST
+  子系统制造商        Toshiba
+  子系统ID            FF1E1179
+
+  设备                Core Processor QPI Link 0
+  设备ID              2D10
+  制造商              Intel
+  制造商ID            8086
+  类别                Bridge / PCI to HOST
+  子系统制造商        Toshiba
+  子系统ID            FF1E1179
+
+  设备                Core Processor QPI Physical 0
+  设备ID              2D11
+  制造商              Intel
+  制造商ID            8086
+  类别                Bridge / PCI to HOST
+  子系统制造商        Toshiba
+  子系统ID            FF1E1179
+
+  设备                Core Processor Reserved
+  设备ID              2D12
+  制造商              Intel
+  制造商ID            8086
+  类别                Bridge / PCI to HOST
+  子系统制造商        Toshiba
+  子系统ID            FF1E1179
+
+  设备                Core Processor Reserved
+  设备ID              2D13
+  制造商              Intel
+  制造商ID            8086
+  类别                Bridge / PCI to HOST
+  子系统制造商        Toshiba
+  子系统ID            FF1E1179
+
+--------[ USB设备 ]-------------------------------------------------------------------------------
+
+  描述                Realtek Card reader
+  制造商ID            0BDA
+  产品ID              0138
+  类别                0 / 0 / 0
+  设备                 
+  版本                USB 2.0
+
+  制造商ID            10F1
+  产品ID              1A2A
+  类别                239 / 2 / 1
+  设备                 
+  版本                USB 2.0
+
+  描述                Microsoft Corp. Nano Transceiver v1.0 for Bluetooth
+  制造商ID            045E
+  产品ID              0745
+  类别                0 / 0 / 0
+  设备                Microsoft Microsoft? 2.4GHz Transceiver v8.0
+  Serial              ?
+  版本                USB 2.0
+
+--------[ 传感器 ]--------------------------------------------------------------------------------
+
+  CPU温度             37℃
+  CPU核心             38℃
+  PCH                 59℃
+  显卡                42℃
+  硬盘温度            26℃
+
