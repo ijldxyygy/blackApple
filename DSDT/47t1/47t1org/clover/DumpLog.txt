@@ -1,0 +1,116 @@
+17:145  0:159  Found UEFI Acpi 2.0 RSDP at 39FCB000
+17:145  0:000  Saving ACPI tables from RSDP 39FCB000 to EFI\CLOVER\ACPI\origin ...
+17:145  0:000   39FCB000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+17:145  0:000    (Xsdt: 39FCB0A8, Rsdt: 39FCB028)
+17:145  0:000    39FCB0A8: 'XSDT', 'A M I', Rev: 1, Len: 212
+17:145  0:000    39FCB028: 'RSDT', 'A M I', Rev: 1, Len: 124
+17:145  0:000    Tables in Xsdt: 22
+17:145  0:000    0. 3A0042E0: 'FACP', 'A M I', Rev: 6, Len: 276
+17:145  0:000        (Dsdt: 39FCB210, Facs: 3A568080, XDsdt: 39FCB210, XFacs: 0)
+17:145  0:000        39FCB210: 'DSDT', 'A M I', Rev: 2, Len: 233678
+17:153  0:007        3A568080: 'FACS', Ver: 2, Len: 64
+17:153  0:000    1. 3A0043F8: 'APIC', 'A M I', Rev: 4, Len: 188
+17:153  0:000    2. 3A0044B8: 'FPDT', 'A M I', Rev: 1, Len: 68
+17:153  0:000    3. 3A004500: 'FIDT', 'A M I', Rev: 1, Len: 156
+17:153  0:000    4. 3A0045A0: 'MCFG', 'A M I', Rev: 1, Len: 60
+17:153  0:000    5. 3A0045E0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6940
+17:153  0:000    6. 3A006100: 'MSDM', 'A M I', Rev: 3, Len: 85
+17:153  0:000    7. 3A006158: 'SSDT', 'SaSsdt', Rev: 2, Len: 12742
+17:153  0:000    8. 3A009320: 'HPET', 'A M I', Rev: 1, Len: 56
+17:153  0:000    9. 3A009358: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 2417
+17:153  0:000    10. 3A009CD0: 'SSDT', 'xh_whld4', Rev: 2, Len: 12274
+17:153  0:000    11. 3A00CCC8: 'UEFI', 'A M I', Rev: 1, Len: 66
+17:153  0:000    12. 3A00CD10: 'LPIT', 'A M I', Rev: 1, Len: 148
+17:153  0:000    13. 3A00CDA8: 'DBGP', 'A M I', Rev: 1, Len: 52
+17:153  0:000    14. 3A00CDE0: 'DBG2', 'A M I', Rev: 0, Len: 84
+17:153  0:000    15. 3A00CE38: 'DMAR', 'EDK2', Rev: 1, Len: 168
+17:153  0:000    16. 3A00CEE0: 'SSDT', 'ADebTabl', Rev: 2, Len: 324
+17:153  0:000    17. 3A00D028: 'SSDT', 'SgRpSsdt', Rev: 2, Len: 1159
+17:153  0:000    18. 3A00D4B0: 'BGRT', 'A M I', Rev: 1, Len: 56
+17:153  0:000    19. 3A00D4E8: 'TPM2', 'A M I', Rev: 4, Len: 52
+17:153  0:000    20. 3A00D520: 'SSDT', 'OptTabl', Rev: 1, Len: 7942
+17:153  0:000    21. 3A00F428: 'WSMT', 'A M I', Rev: 1, Len: 40
+17:153  0:000    Tables in Rsdt: 22
+17:153  0:000    0. 39FCB188: 'FACP', 'A M I', Rev: 2, Len: 132
+17:153  0:000        (Dsdt: 39FCB210, Facs: 3A568040)
+17:153  0:000        39FCB210: 'DSDT', 'A M I', Rev: 2, Len: 233678
+17:161  0:007        3A568040: 'FACS', Ver: 0, Len: 64
+17:161  0:000    1. 3A0043F8: 'APIC', 'A M I', Rev: 4, Len: 188
+17:161  0:000    2. 3A0044B8: 'FPDT', 'A M I', Rev: 1, Len: 68
+17:161  0:000    3. 3A004500: 'FIDT', 'A M I', Rev: 1, Len: 156
+17:161  0:000    4. 3A0045A0: 'MCFG', 'A M I', Rev: 1, Len: 60
+17:161  0:000    5. 3A0045E0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6940
+17:161  0:000    6. 3A006100: 'MSDM', 'A M I', Rev: 3, Len: 85
+17:161  0:000    7. 3A006158: 'SSDT', 'SaSsdt', Rev: 2, Len: 12742
+17:161  0:000    8. 3A009320: 'HPET', 'A M I', Rev: 1, Len: 56
+17:161  0:000    9. 3A009358: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 2417
+17:161  0:000    10. 3A009CD0: 'SSDT', 'xh_whld4', Rev: 2, Len: 12274
+17:161  0:000    11. 3A00CCC8: 'UEFI', 'A M I', Rev: 1, Len: 66
+17:161  0:000    12. 3A00CD10: 'LPIT', 'A M I', Rev: 1, Len: 148
+17:161  0:000    13. 3A00CDA8: 'DBGP', 'A M I', Rev: 1, Len: 52
+17:161  0:000    14. 3A00CDE0: 'DBG2', 'A M I', Rev: 0, Len: 84
+17:161  0:000    15. 3A00CE38: 'DMAR', 'EDK2', Rev: 1, Len: 168
+17:161  0:000    16. 3A00CEE0: 'SSDT', 'ADebTabl', Rev: 2, Len: 324
+17:161  0:000    17. 3A00D028: 'SSDT', 'SgRpSsdt', Rev: 2, Len: 1159
+17:161  0:000    18. 3A00D4B0: 'BGRT', 'A M I', Rev: 1, Len: 56
+17:161  0:000    19. 3A00D4E8: 'TPM2', 'A M I', Rev: 4, Len: 52
+17:161  0:000    20. 3A00D520: 'SSDT', 'OptTabl', Rev: 1, Len: 7942
+17:161  0:000    21. 3A00F428: 'WSMT', 'A M I', Rev: 1, Len: 40
+17:161  0:000  Found UEFI Acpi 1.0 RSDP at 39FCB000
+17:161  0:000  Printing ACPI tables from RSDP 39FCB000 ...
+17:161  0:000   39FCB000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+17:161  0:000    (Xsdt: 39FCB0A8, Rsdt: 39FCB028)
+17:161  0:000    39FCB0A8: 'XSDT', 'A M I', Rev: 1, Len: 212
+17:161  0:000    39FCB028: 'RSDT', 'A M I', Rev: 1, Len: 124
+17:161  0:000    Tables in Xsdt: 22
+17:161  0:000    0. 3A0042E0: 'FACP', 'A M I', Rev: 6, Len: 276
+17:161  0:000        (Dsdt: 39FCB210, Facs: 3A568080, XDsdt: 39FCB210, XFacs: 0)
+17:161  0:000        39FCB210: 'DSDT', 'A M I', Rev: 2, Len: 233678
+17:169  0:007        3A568080: 'FACS', Ver: 2, Len: 64
+17:169  0:000    1. 3A0043F8: 'APIC', 'A M I', Rev: 4, Len: 188
+17:169  0:000    2. 3A0044B8: 'FPDT', 'A M I', Rev: 1, Len: 68
+17:169  0:000    3. 3A004500: 'FIDT', 'A M I', Rev: 1, Len: 156
+17:169  0:000    4. 3A0045A0: 'MCFG', 'A M I', Rev: 1, Len: 60
+17:169  0:000    5. 3A0045E0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6940
+17:169  0:000    6. 3A006100: 'MSDM', 'A M I', Rev: 3, Len: 85
+17:169  0:000    7. 3A006158: 'SSDT', 'SaSsdt', Rev: 2, Len: 12742
+17:169  0:000    8. 3A009320: 'HPET', 'A M I', Rev: 1, Len: 56
+17:169  0:000    9. 3A009358: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 2417
+17:169  0:000    10. 3A009CD0: 'SSDT', 'xh_whld4', Rev: 2, Len: 12274
+17:169  0:000    11. 3A00CCC8: 'UEFI', 'A M I', Rev: 1, Len: 66
+17:169  0:000    12. 3A00CD10: 'LPIT', 'A M I', Rev: 1, Len: 148
+17:169  0:000    13. 3A00CDA8: 'DBGP', 'A M I', Rev: 1, Len: 52
+17:169  0:000    14. 3A00CDE0: 'DBG2', 'A M I', Rev: 0, Len: 84
+17:169  0:000    15. 3A00CE38: 'DMAR', 'EDK2', Rev: 1, Len: 168
+17:169  0:000    16. 3A00CEE0: 'SSDT', 'ADebTabl', Rev: 2, Len: 324
+17:169  0:000    17. 3A00D028: 'SSDT', 'SgRpSsdt', Rev: 2, Len: 1159
+17:169  0:000    18. 3A00D4B0: 'BGRT', 'A M I', Rev: 1, Len: 56
+17:169  0:000    19. 3A00D4E8: 'TPM2', 'A M I', Rev: 4, Len: 52
+17:169  0:000    20. 3A00D520: 'SSDT', 'OptTabl', Rev: 1, Len: 7942
+17:169  0:000    21. 3A00F428: 'WSMT', 'A M I', Rev: 1, Len: 40
+17:169  0:000    Tables in Rsdt: 22
+17:169  0:000    0. 39FCB188: 'FACP', 'A M I', Rev: 2, Len: 132
+17:169  0:000        (Dsdt: 39FCB210, Facs: 3A568040)
+17:169  0:000        39FCB210: 'DSDT', 'A M I', Rev: 2, Len: 233678
+17:177  0:007        3A568040: 'FACS', Ver: 0, Len: 64
+17:177  0:000    1. 3A0043F8: 'APIC', 'A M I', Rev: 4, Len: 188
+17:177  0:000    2. 3A0044B8: 'FPDT', 'A M I', Rev: 1, Len: 68
+17:177  0:000    3. 3A004500: 'FIDT', 'A M I', Rev: 1, Len: 156
+17:177  0:000    4. 3A0045A0: 'MCFG', 'A M I', Rev: 1, Len: 60
+17:177  0:000    5. 3A0045E0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6940
+17:177  0:000    6. 3A006100: 'MSDM', 'A M I', Rev: 3, Len: 85
+17:177  0:000    7. 3A006158: 'SSDT', 'SaSsdt', Rev: 2, Len: 12742
+17:177  0:000    8. 3A009320: 'HPET', 'A M I', Rev: 1, Len: 56
+17:177  0:000    9. 3A009358: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 2417
+17:177  0:000    10. 3A009CD0: 'SSDT', 'xh_whld4', Rev: 2, Len: 12274
+17:177  0:000    11. 3A00CCC8: 'UEFI', 'A M I', Rev: 1, Len: 66
+17:177  0:000    12. 3A00CD10: 'LPIT', 'A M I', Rev: 1, Len: 148
+17:177  0:000    13. 3A00CDA8: 'DBGP', 'A M I', Rev: 1, Len: 52
+17:177  0:000    14. 3A00CDE0: 'DBG2', 'A M I', Rev: 0, Len: 84
+17:177  0:000    15. 3A00CE38: 'DMAR', 'EDK2', Rev: 1, Len: 168
+17:177  0:000    16. 3A00CEE0: 'SSDT', 'ADebTabl', Rev: 2, Len: 324
+17:177  0:000    17. 3A00D028: 'SSDT', 'SgRpSsdt', Rev: 2, Len: 1159
+17:177  0:000    18. 3A00D4B0: 'BGRT', 'A M I', Rev: 1, Len: 56
+17:177  0:000    19. 3A00D4E8: 'TPM2', 'A M I', Rev: 4, Len: 52
+17:177  0:000    20. 3A00D520: 'SSDT', 'OptTabl', Rev: 1, Len: 7942
+17:177  0:000    21. 3A00F428: 'WSMT', 'A M I', Rev: 1, Len: 40
