@@ -5,7 +5,7 @@
  * 
  * Disassembling to non-symbolic legacy ASL operators
  *
- * Disassembly of acpi_dsdt.aml, Wed Jul 10 12:01:49 2019
+ * Disassembly of DSDT.aml, Fri Jul 12 23:46:55 2019
  *
  * Original Table Header:
  *     Signature        "DSDT"
@@ -28,6 +28,13 @@ DefinitionBlock ("", "DSDT", 2, "ALASKA", "A M I ", 0x01072009)
      * disassembler did not know how many arguments to assign to the
      * unresolved methods. Note: SSDTs can be dynamically loaded at
      * runtime and may or may not be available via the host OS.
+     *
+     * To specify the tables needed to resolve external control method
+     * references, the -e option can be used to specify the filenames.
+     * Example iASL invocations:
+     *     iasl -e ssdt1.aml ssdt2.aml ssdt3.aml -d dsdt.aml
+     *     iasl -e dsdt.aml ssdt2.aml -d ssdt1.aml
+     *     iasl -e ssdt*.aml -d dsdt.aml
      *
      * In addition, the -fe option can be used to specify a file containing
      * control method external declarations with the associated method
