@@ -236,7 +236,6 @@ DefinitionBlock ("", "SSDT", 1, "OptRef", "OptTabl", 0x00001000)
         Method (_INI, 0, NotSerialized)  // _INI: Initialize
         {
             Store (Zero, \_SB.PCI0.RP05.PEGP._ADR)
-                        External(\_SB.PCI0.RP05.PEGP._OFF, MethodObj)
                         _OFF()
 
         }

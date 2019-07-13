@@ -476,9 +476,6 @@ DefinitionBlock ("", "DSDT", 2, "ALASKA", "A M I ", 0x01072009)
         LPER,   8, 
         PPSZ,   32, 
         DISE,   8, 
-        BGMA,   64, 
-        BGMS,   8, 
-        BGIA,   16, 
         IRMC,   8, 
         CHEN,   8, 
         S0ID,   8, 
@@ -1436,7 +1433,6 @@ DefinitionBlock ("", "DSDT", 2, "ALASKA", "A M I ", 0x01072009)
         WDC2,   16, 
         WMXS,   16, 
         WMNS,   16, 
-        ESPC,   8, 
         UCRT,   8, 
         TJMX,   8, 
         STAS,   8, 
@@ -6119,46 +6115,12 @@ DefinitionBlock ("", "DSDT", 2, "ALASKA", "A M I ", 0x01072009)
                     })
                 }
 
-                Zero
-                Zero
-                Zero
-                Zero
-                Zero
-                Zero
-                Zero
-                Zero
-                Zero
-                Zero
-                Zero
-                Zero
-                Zero
-                Zero
-                Zero
-                Zero
-                Zero
-                Zero
-                Zero
-                Zero
-                Zero
-                Zero
-                Zero
-                Zero
-                Zero
-                Zero
-                Zero
-                Zero
-                Zero
+
                 Method (HPME, 0, Serialized)
                 {
                     If (LAnd (LNotEqual (VDID, 0xFFFFFFFF), LEqual (PMSX, One)))
                     {
-                        Zero
-                        Zero
-                        Zero
-                        Zero
-                        Zero
-                        Zero
-                        Zero
+               
                         Store (One, PMSX)
                         Store (One, PSPX)
                     }
@@ -14619,7 +14581,6 @@ DefinitionBlock ("", "DSDT", 2, "ALASKA", "A M I ", 0x01072009)
         VM70,   8, 
         VM75,   8, 
         PTHM,   8, 
-        PSON,   8, 
         TWMB,   32, 
         LTR1,   8, 
         LTR2,   8, 
@@ -50567,6 +50528,8 @@ DefinitionBlock ("", "DSDT", 2, "ALASKA", "A M I ", 0x01072009)
             {
                 If (LAnd (LEqual (Arg0, 0x03), LEqual (Arg1, One)))
                 {
+                     External(\_SB.PCI0.PEG0.PEGP._OFF, MethodObj)
+    \_SB.PCI0.PEG0.PEGP._OFF()
                     Store (One, ECON)
                     If (LEqual (OSYS, 0x07DF))
                     {
