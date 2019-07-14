@@ -1,0 +1,4 @@
+  产品 ID：	0xc811
+  厂商 ID：	0x0bda  (Realtek Semiconductor Corp.)
+  版本：	2.00
+  序列号：	123456

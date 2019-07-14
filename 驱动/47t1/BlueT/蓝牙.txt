@@ -1,0 +1,2 @@
+  产品 ID：	0x0aaa
+  厂商 ID：	0x8087  (Intel Corporation)
