@@ -1,0 +1,8 @@
+字面意思 
+SSDT-RMCF改 Name (AUDL, 你的id)
+SSDT-HDEF
+                "layout-id", 
+                Buffer (0x04)
+                {
+                     你的id, 0x00, 0x00, 0x00                         
+                },
