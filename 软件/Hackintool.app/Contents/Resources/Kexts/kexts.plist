@@ -66,11 +66,11 @@
 	</dict>
 	<dict>
 		<key>Name</key>
-		<string>BT4LEContiunityFixup</string>
+		<string>BT4LEContinuityFixup</string>
 		<key>Description</key>
 		<string>An open source kernel extension providing patches for IOBluetoothFamily.</string>
 		<key>ProjectUrl</key>
-		<string>https://github.com/acidanthera/BT4LEContiunityFixup</string>
+		<string>https://github.com/acidanthera/BT4LEContinuityFixup</string>
 		<key>Type</key>
 		<string>Lilu</string>
 	</dict>
@@ -160,7 +160,7 @@
 		<key>Description</key>
 		<string>This kext attempts to inject USB ports for each controller, and for hubs as well.</string>
 		<key>ProjectUrl</key>
-		<string>https://github.com/RehabMan/OS-X-USB-Inject-All</string>
+		<string>https://github.com/Sniki/OS-X-USB-Inject-All</string>
 		<key>Type</key>
 		<string>Kext</string>
 	</dict>
@@ -190,7 +190,7 @@
 		<key>Name</key>
 		<string>AppleBacklightFixup</string>
 		<key>Description</key>
-		<string>Lilu plugin for enabling support for backlight using RehabMan's patches</string>
+		<string>Lilu plugin for enabling support for backlight using RehabMan&apos;s patches</string>
 		<key>ProjectUrl</key>
 		<string>https://github.com/RehabMan/AppleBacklightFixup</string>
 		<key>Type</key>
@@ -232,15 +232,15 @@
 	</dict>
 	<dict>
 		<key>Name</key>
-		<string>BrcmFirmwareStore</string>
+		<string>BrcmPatchRAM</string>
+		<key>BundleID</key>
+		<string>BrcmPatchRAM3</string>
 		<key>Description</key>
-		<string>Broadcom PatchRAM driver for OS X</string>
+		<string>Broadcom PatchRAM driver for macOS</string>
 		<key>ProjectUrl</key>
-		<string>https://github.com/RehabMan/OS-X-BrcmPatchRAM</string>
-		<key>ProjectFileUrl</key>
-		<string>https://github.com/RehabMan/OS-X-BrcmPatchRAM/raw/master/BrcmPatchRAM.xcodeproj</string>
+		<string>https://github.com/acidanthera/BrcmPatchRAM</string>
 		<key>Type</key>
-		<string>Lilu</string>
+		<string>Kext</string>
 	</dict>
 	<dict>
 		<key>Name</key>
@@ -248,9 +248,11 @@
 		<key>Description</key>
 		<string>Used for updating EAPD (External Amplifier) state on HDA (High Definition Audio) codecs that use given amp on Speaker or Headphone nodes (both, or even extra ones in some cases).</string>
 		<key>ProjectUrl</key>
-		<string>https://github.com/Dolnor/EAPD-Codec-Commander</string>
+		<string>https://github.com/Sniki/EAPD-Codec-Commander</string>
 		<key>Type</key>
 		<string>Kext</string>
+		<key>Superseder</key>
+		<string>AppleALC</string>
 	</dict>
 	<dict>
 		<key>Name</key>
@@ -300,7 +302,7 @@
 		<key>Name</key>
 		<string>GenericUSBXHCI</string>
 		<key>Description</key>
-		<string>Fork of Zenith432's GenericUSBXHCI USB 3.0 driver for OS X</string>
+		<string>Fork of Zenith432&apos;s GenericUSBXHCI USB 3.0 driver for OS X</string>
 		<key>ProjectUrl</key>
 		<string>https://github.com/RehabMan/OS-X-Generic-USB3</string>
 		<key>Type</key>
@@ -345,10 +347,24 @@
 	<dict>
 		<key>Name</key>
 		<string>IntelMausiEthernet</string>
+		<key>BundleID</key>
+		<string>IntelMausi</string>
 		<key>Description</key>
-		<string>OS X driver for Intel onboard LAN</string>
+		<string>OS X driver for Intel onboard LAN (Acidanthera)</string>
 		<key>ProjectUrl</key>
-		<string>https://github.com/Mieze/IntelMausiEthernet</string>
+		<string>https://github.com/acidanthera/IntelMausi</string>
+		<key>Type</key>
+		<string>Kext</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>IntelMausiEthernet</string>
+		<key>BundleID</key>
+		<string>IntelMausiEthernet</string>
+		<key>Description</key>
+		<string>OS X driver for Intel onboard LAN (Mieze)</string>
+		<key>ProjectUrl</key>
+		<string>https://github.com/mieze/IntelMausiEthernet</string>
 		<key>Type</key>
 		<string>Kext</string>
 	</dict>
@@ -396,7 +412,7 @@
 		<key>Name</key>
 		<string>NVWebDriverLibValFix</string>
 		<key>Description</key>
-		<string>Fixes the NVIDIA web driver's blank window issue on macOS Sierra with a small and safe kernel patch</string>
+		<string>Fixes the NVIDIA web driver&apos;s blank window issue on macOS Sierra with a small and safe kernel patch</string>
 		<key>ProjectUrl</key>
 		<string>https://github.com/mologie/NVWebDriverLibValFix</string>
 		<key>Type</key>
@@ -469,10 +485,12 @@
 	<dict>
 		<key>Name</key>
 		<string>VoodooPS2Controller</string>
+		<key>BundleID</key>
+		<string>PS2Controller</string>
 		<key>Description</key>
 		<string>Contains updated Voodoo PS/2 Controller, improved Keyboard &amp; Synaptics TouchPad</string>
 		<key>ProjectUrl</key>
-		<string>https://github.com/RehabMan/OS-X-Voodoo-PS2-Controller</string>
+		<string>https://github.com/acidanthera/VoodooPS2</string>
 		<key>Type</key>
 		<string>Kext</string>
 	</dict>
@@ -483,6 +501,80 @@
 		<string>A kernel extension which will synchronize the TSC on any Intel CPUs.</string>
 		<key>ProjectUrl</key>
 		<string>https://github.com/RehabMan/VoodooTSCSync</string>
+		<key>Type</key>
+		<string>Kext</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>VoodooInput</string>
+		<key>Description</key>
+		<string>An opensource trackpad aggregator kernel extension providing Magic Trackpad 2 software emulation for arbitrary input sources like VoodooPS2.</string>
+		<key>ProjectUrl</key>
+		<string>https://github.com/acidanthera/VoodooInput</string>
+		<key>Type</key>
+		<string>Kext</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>VoodooRMI</string>
+		<key>Description</key>
+		<string>A port for macOS of Synaptic's RMI code from Linux. RMI4 is used for touchscreens, touchpads, and other sensors.</string>
+		<key>ProjectUrl</key>
+		<string>https://github.com/VoodooSMBus/VoodooRMI</string>
+		<key>Type</key>
+		<string>Kext</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>VoodooSMBus</string>
+		<key>Description</key>
+		<string>VoodooSMBus is a project that provides a kernel extension (driver) for macOS that adds support for the SMBus capabilities of Intel I/O Controller Hubs (ICH), also called i801 SMBus.</string>
+		<key>ProjectUrl</key>
+		<string>https://github.com/VoodooSMBus/VoodooSMBus</string>
+		<key>Type</key>
+		<string>Kext</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>NVMeFix</string>
+		<key>Description</key>
+		<string>NVMeFix is a set of patches for the Apple NVMe storage driver, IONVMeFamily.</string>
+		<key>ProjectUrl</key>
+		<string>https://github.com/acidanthera/NVMeFix</string>
+		<key>Type</key>
+		<string>Lilu</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>IntelBluetoothFirmware</string>
+		<key>Description</key>
+		<string>Try to load the Intel Bluetooth driver firmware.</string>
+		<key>ProjectUrl</key>
+		<string>https://github.com/OpenIntelWireless/IntelBluetoothFirmware</string>
+		<key>Type</key>
+		<string>Kext</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>AppleIntelWifiAdapter</string>
+		<key>Description</key>
+		<string>Apple IO80211Controller call. Research on Apple&apos;s undisclosed AirPort program. Currently based on 10.15 api.</string>
+		<key>ProjectUrl</key>
+		<string>https://github.com/zxystd/AppleIntelWifiAdapter</string>
+		<key>Type</key>
+		<string>Kext</string>
+		<key>Superseder</key>
+		<string>itlwm</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>itlwm</string>
+		<key>BundleID</key>
+		<string>AirportItlwm</string>
+		<key>Description</key>
+		<string>OpenBSD based macOS Intel network card driver.</string>
+		<key>ProjectUrl</key>
+		<string>https://github.com/OpenIntelWireless/itlwm</string>
 		<key>Type</key>
 		<string>Kext</string>
 	</dict>
